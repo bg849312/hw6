@@ -30,6 +30,11 @@ protected:
 	// *******************************************************************
 	// OPTIONAL VIRTUAL FUNCTIONS (overriding these is optional)
 	// *******************************************************************
+
+///
+///One virtual funcion in "game.h" get user move which asks for the human players move
+///
+
 	virtual void display_message(const std::string& message) const;
 	virtual std::string get_user_move( ) const;
 	virtual who last_mover( ) const

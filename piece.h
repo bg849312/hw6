@@ -9,6 +9,11 @@ enum color {black, white, blank};
 
 class piece {
 public:
+
+///
+///Function flip i believe changes the color of the checker piece to show kings
+///
+
 	piece() {theColor = blank;}
 
 	void flip()

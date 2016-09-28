@@ -17,6 +17,12 @@ namespace main_savitch_14
 //*************************************************************************
 // PUBLIC MEMBER FUNCTIONS
 
+///
+///Public functions include restart when the game is over else it keeps switching
+///to humans move
+///
+
+
 game::who game::play( )
 // The play function should not be overridden. It plays one round of the
 // game, with the human player moving first and the computer second.
@@ -44,6 +50,10 @@ game::who game::play( )
 
 //*************************************************************************
 // OPTIONAL VIRTUAL FUNCTIONS (overriding these functions is optional)
+
+///
+///Virtual functions include display message, get user move and who is winning
+///
 
 void game::display_message(const string& message) const
 {
@@ -76,6 +86,11 @@ game::who game::winning()const {
 
 //*************************************************************************
 // PRIVATE FUNCTIONS (these are the same for every game)
+
+
+///
+///Private functions include eval with lookahead, make computer move and make user move
+///
 
 int game::eval_with_lookahead(int look_ahead, int beat_this)
 // Evaluate a board position with lookahead.

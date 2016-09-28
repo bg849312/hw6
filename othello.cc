@@ -8,6 +8,10 @@
 namespace main_savitch_14
 {
 
+///
+///Function display status displays the chess board onscreen
+///
+
 void Othello::display_status()const
 {
   cout << BLUE << "   _______ _______ _______ _______ _______ _______ _______ _______\n";

@@ -18,6 +18,10 @@ class Othello: public game {
 public:
 
 	Othello() {}
+///
+///Function is legal checks to see if the move you are attempting is a legal move, if not
+///it will tell you and ask for another move
+///
 
 	void display_status()const;
 	int evaluate()const;
